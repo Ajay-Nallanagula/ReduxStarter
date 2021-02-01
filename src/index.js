@@ -1,6 +1,5 @@
 import store from './store'
-import * as actions from './actionsTypes'
-import {addBug,deleteBug,resolveBug} from './actions'
+import {addBug,deleteBug,resolveBug} from './store/bugs'
 
 //console.log({store})
 //console.log("initial State" ,store.getState())
@@ -12,7 +11,7 @@ const unsubscribe = store.subscribe(()=>{
 //dispatch should have an action
 // action to add bug
 
-
+//583533341
 store.dispatch(addBug('Bug1'))
 console.log("After dispatching AddBug" ,store.getState())
 store.dispatch(addBug('Bug2'))
