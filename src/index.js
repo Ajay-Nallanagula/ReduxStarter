@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import store from './Redux_IntroWay/store'
 import {addBug,deleteBug,resolveBug} from './Redux_IntroWay/actions'
 //import customStore from './Redux_BuildCustom/customStore'
+=======
+import store from './store'
+import {addBug,deleteBug,resolveBug} from './store/bugs'
+>>>>>>> 871fd2f4bd5c361b6f1f4bd95ac0e90ba667f5e5
 
 //console.log({store})
 //console.log("initial State" ,store.getState())
@@ -13,6 +18,12 @@ const unsubscribe = store.subscribe(()=>{
 })
 
 //dispatch should have an action
+<<<<<<< HEAD
+=======
+// action to add bug
+
+//583533341
+>>>>>>> 871fd2f4bd5c361b6f1f4bd95ac0e90ba667f5e5
 store.dispatch(addBug('Bug1'))
 console.log("After dispatching AddBug" ,store.getState())
 store.dispatch(addBug('Bug2'))
