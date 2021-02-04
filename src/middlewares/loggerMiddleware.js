@@ -1,4 +1,4 @@
-//DNA =>SNA
+//DNA =>SNA , just to remember
 //Middlewares are app-level , they exert the task at app level 
 //Middlewares are currying methods
 //You can treat them like func(store)(next)(action)
